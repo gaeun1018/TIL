@@ -13,7 +13,7 @@
   
   model will be located at ```~/.insightface/models/antelope```
   
-  
+  <br>
   
   Please ensure the files are extracted to these locations within your local copy of the repository:
   ```
