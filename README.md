@@ -9,5 +9,11 @@
 
 
 ### 2. Download Models
-  1. ```insightface-cli model.download antelope```
+  ```insightface-cli model.download antelope```
   or [antelope](https://onedrive.live.com/?authkey=%21ADJ0aAOSsc90neY&cid=4A83B6B633B029CC&id=4A83B6B633B029CC%215837&parId=4A83B6B633B029CC%215834&action=locate)
+  
+  Please ensure the files are extracted to these locations within your local copy of the repository:
+  ```
+  antelope/buffalo_l/BFM.mat
+  antelope/buffalo_l/BFM_UV.mat
+  ```
