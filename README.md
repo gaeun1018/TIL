@@ -14,6 +14,6 @@
   
   Please ensure the files are extracted to these locations within your local copy of the repository:
   ```
-  antelope/buffalo_l/BFM.mat
-  antelope/buffalo_l/BFM_UV.mat
+  ~/.insightface/models/antelope/buffalo_l/BFM.mat
+  ~/.insightface/models/antelope/buffalo_l/BFM_UV.mat
   ```
