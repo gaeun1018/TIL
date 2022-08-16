@@ -7,4 +7,6 @@
   1. ```Pip install numpy, cython, onnxruntime, mxnet ```
   2. ```Pip install insightface```
   3. ```insightface-cli model.download antelope```
-  4.```insightface-cli model.download antelope```
+
+
+  5.```insightface-cli model.download antelope```
