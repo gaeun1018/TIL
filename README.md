@@ -1,5 +1,11 @@
 # REC2REC
 
+You can easily add a rec file and add a mask parameter to the rec file.
+
+If you add a rec file to the rec file, you can enter ```20000``` sheets per second
+
+If you add a mask parameter, ```5``` sheets per second are added
+
 # SETUP
 ### 1. Install Requirements
 
