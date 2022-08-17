@@ -29,7 +29,12 @@ Pip install numpy, cython, onnxruntime, mxnet
 
 # Working
 
-1.Open terminal. Go into the cloned project directory and type the following command:
+1. Open terminal. Go into the cloned project directory and type the following command:
 ```
 python rec2rec.py --input inputpath --plus pluspath
+```
+
+2. To add mask param the following command:
+```
+python rec2rec.py --input inputpath --plus pluspath --mask
 ```
