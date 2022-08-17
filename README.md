@@ -3,9 +3,10 @@
 
 # SETUP
 ### 1. Install Requirements
-  1.Please make sure that the following packages are installed:
+  1. Please make sure that the following packages are installed:
   
   ```Pip install numpy, cython, onnxruntime, mxnet ```
+  
   2. ```Pip install insightface```
 
 
