@@ -33,6 +33,7 @@ Pip install numpy, cython, onnxruntime, mxnet
 ```
 python rec2rec.py --input inputpath --plus pluspath --mask
 
+
 --input => Put the path that contains the original train.rec
 
 --plus => Put the path that contains the train.rec that you want to add.
