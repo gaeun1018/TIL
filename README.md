@@ -1,6 +1,5 @@
 # REC2REC
 
-
 # SETUP
 ### 1. Install Requirements
 
@@ -41,3 +40,5 @@ python rec2rec.py --input inputpath --plus pluspath --mask
 --mask => To add a mask parameter, add this command
 ```
 
+
+The complete(_m).rec, complete(_m).idx file will be created in the input path
