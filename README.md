@@ -26,3 +26,9 @@ Pip install numpy, cython, onnxruntime, mxnet
   ~/.insightface/models/antelope/buffalo_l/BFM.mat
   ~/.insightface/models/antelope/buffalo_l/BFM_UV.mat
   ```
+
+# Working
+
+```
+python rec2rec.py --input inputpath --plus pluspath
+```
