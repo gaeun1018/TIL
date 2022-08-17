@@ -41,4 +41,5 @@ python rec2rec.py --input inputpath --plus pluspath --mask
 ```
 
 
+
 The ```complete.rec, complete.idx / complete_m.rec, complete_m.idx``` file will be created in the input path
