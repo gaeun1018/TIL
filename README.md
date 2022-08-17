@@ -31,10 +31,12 @@ Pip install numpy, cython, onnxruntime, mxnet
 
 1. Open terminal. Go into the cloned project directory and type the following command:
 ```
-python rec2rec.py --input inputpath --plus pluspath
+python rec2rec.py --input inputpath --plus pluspath --mask
+
+--input => Put the path that contains the original train.rec
+
+--plus => Put the path that contains the train.rec that you want to add.
+
+--mask => To add a mask parameter, add this command
 ```
 
-2. To add mask param the following command:
-```
-python rec2rec.py --input inputpath --plus pluspath --mask
-```
