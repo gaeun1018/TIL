@@ -1,4 +1,4 @@
-# face112
+# Face112
 
 You can cut the image into 112*112 sizes to fit the shape of your face.
 
