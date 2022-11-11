@@ -9,7 +9,7 @@ You can cut the image into 112*112 sizes to fit the shape of your face.
 
 1. Please make sure that the following packages are installed:
 
-[package](https://github.com/nsense-ptas/deepface/tree/master/package)
+    [package](https://github.com/nsense-ptas/deepface/tree/master/package)
 
 
 # Working
