@@ -80,6 +80,6 @@ You can get `libtensorflowlite.dylib` from the path `bazel-bin/tensorflow/lite/l
  <br/>  
  <br/> 
  
-## Android ndk build
+## Android build
 
 
