@@ -63,23 +63,55 @@ Ask about android/iOS build
 
 ### 4. Build
 
-Run the following command for a c++ building
-
+arm64-v8a
 ```
-bazel build -c opt //tensorflow/lite:tensorflowlite
+--config=android_arm64 --cpu=arm64-v8a
 ```
 
+armeabi-v7a
+```
+--config=android_arm --cpu=armeabi-v7a
+```
 </br>
 
-### 5.Result
+CPU(default)
+```
+bazel build -c opt --config=android_arm64 --cpu=arm64-v8a //tensorflow/lite:tensorflowlite
+```
 
-You can get `libtensorflowlite.dylib` from the path `bazel-bin/tensorflow/lite/libtensorflowlite.dylib`
+GPU
+```
+bazel build -c opt --config=android_arm64 --cpu=arm64-v8a //tensorflow/lite/delegates/gpu:libtensorflowlite_gpu_delegate.so
+```
 
-
+NNAPI
+```
+bazel build -c opt --config=android_arm64 --cpu=arm64-v8a //tensorflow/lite/delegates/nnapi:nnapi_delegate_no_nnapi_implementation
+bazel build -c opt --config=android_arm64 --cpu=arm64-v8a //tensorflow/lite/nnapi:nnapi_implementation
+bazel build -c opt --config=android_arm64 --cpu=arm64-v8a //tensorflow/lite/nnapi:nnapi_uti
+```
 
  <br/>  
  <br/> 
  
-## Android build
+## Opencv import 
+
+
+### 1. Download Opencv library
+
+You can download opencv from the link below.
+
+https://opencv.org/releases/
+
+</br>
+
+### 2. Import module
+
+In Android Studio ```File > New > Import Module```
+
+Select ```${OpenCVpath}/sdk/java```
+
+
+The opencv folder would have been added to your project
 
 
