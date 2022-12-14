@@ -109,9 +109,21 @@ https://opencv.org/releases/
 
 In Android Studio ```File > New > Import Module```
 
-Select ```${OpenCVpath}/sdk/java```
-
+Select ```${OpenCVpath}/sdk/java```  
+</br>
 
 The opencv folder would have been added to your project
 
+Clear the ```apply plugin: 'kotlin-android'``` part of the build.gradle file in the opencv folder
 
+</br>
+
+```File > Project Structure > Dependencies```
+
+![image](https://user-images.githubusercontent.com/90126829/207540935-9ace93c3-1fe1-4c9e-b7f2-9efddcd6c6ca.png)
+
+
+You can add opencv module
+
+
+</br>
