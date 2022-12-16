@@ -125,5 +125,22 @@ Clear the ```apply plugin: 'kotlin-android'``` part of the build.gradle file in 
 
 You can add opencv module
 
+</br>
 
+```
+set(pathOPENCV ~/AndroidStudioProjects/(project name)/opencv)
+set(path_OPENCV ${pathOPENCV}/native/libs/${ANDROID_ABI}/libopencv_java4.so)
+
+include_directores(~/AndroidStudioProjects/(project name)/opencv/native/jni/include)
+
+add_library(lib_opencv SHARED IMPORTED)
+set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION ${path_OPENCV})
+
+target_link_libraries(
+        (project name)
+        lib_opencv
+        ${log-lib})
+```
+
+Add the code above to the CMAkeLists file
 </br>
