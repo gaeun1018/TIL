@@ -109,7 +109,7 @@ https://opencv.org/releases/
 
 In Android Studio ```File > New > Import Module```
 
-Select ```${OpenCVpath}/sdk/java```  
+Select ```${OpenCVpath}/sdk```  
 </br>
 
 The opencv folder would have been added to your project
