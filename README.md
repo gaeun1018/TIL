@@ -129,8 +129,9 @@ You can add opencv module
 
 ```
 set(pathOPENCV ~/AndroidStudioProjects/(project name)/opencv)
+set(path_OPENCV ${pathOPENCV}/native/libs/${ANDROID_ABI}/libopencv_java4.so)
 
-include_directores(~/AndroidStudioProjects/(project name)/opencv/native/jni/include)
+include_directories(~/AndroidStudioProjects/(project name)/opencv/native/jni/include)
 
 add_library(lib_opencv SHARED IMPORTED)
 set_target_properties(lib_opencv PROPERTIES IMPORTED_LOCATION ${path_OPENCV})
