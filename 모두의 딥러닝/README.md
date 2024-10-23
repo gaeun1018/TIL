@@ -102,7 +102,7 @@ $$ b로\ 편미분 = \frac{2}{n} \sum-(y_i - (ax_i+b))$$
 
 [Colab_다중선형회귀][colablink]
 
-[colablink]: colab\선형회귀.ipynb
+[colablink]: colab\다중선형회귀.ipynb
 
 
 <br>
@@ -117,3 +117,29 @@ $$ b로\ 편미분 = \frac{2}{n} \sum-(y_i - (ax_i+b))$$
 *평균 제곱 오차* -> **손실 함수**  
 *경사 하강법* -> **옵티마이저**
 
+<br>
+
+**코드로 구현하기**
+
+[Colab_다중선형회귀_tensorflow][colablink]
+
+[colablink]: colab\다중선형회귀_텐서플로.ipynb
+
+<br>
+
+### 로지스틱 회귀
+종속변수가 두 개의 클래스를 갖는 범주형일 때 분류기법으로 사용
+
+
+**시그모이드 함수**
+$$ y = \frac{1}{1+e^{-(ax+b)}}$$
+<br>
+
+![image](https://thebook.io/img/080324/102_2.jpg)
+![image](https://thebook.io/img/080324/103.jpg)
+
+
+**교차 엔트로피 오차 함수**
+$$ -{ylogh + (1-y)log(1-h)} $$
+
+실제 값을 *y*라고 할 때 이 값이 1 이면 뒷부분이 없어지고 반대로 0 이면 앞부분이 없어진다.
