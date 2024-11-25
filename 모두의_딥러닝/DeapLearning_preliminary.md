@@ -139,7 +139,18 @@ $$ y = \frac{1}{1+e^{-(ax+b)}}$$
 ![image](https://thebook.io/img/080324/103.jpg)
 
 
+
 **교차 엔트로피 오차 함수**
 $$ -{ylogh + (1-y)log(1-h)} $$
 
 실제 값을 *y*라고 할 때 이 값이 1 이면 뒷부분이 없어지고 반대로 0 이면 앞부분이 없어진다.
+
+<br>
+
+**코드로 구현하기**
+
+[Colab_logistic][colablink]
+
+[colablink]: colab\Logistic.ipynb
+
+<br>
