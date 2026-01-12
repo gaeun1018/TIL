@@ -110,7 +110,10 @@ python src/eval.py --ckpt ./checkpoints/best.pt --use_bn
 ---
 
 ## 📌 결과 시각화
-(추후 Confusion Matrix, Loss/Accuracy Curve 추가 예정)
+![Confusion Matrix](images/confusion_matrix.png)
+
+![Loss & Accuracy Curve](images/loss_accuracy_curve.png)
+
 
 ---
 
