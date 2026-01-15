@@ -89,42 +89,17 @@
   - Markdown documentation
 
 
-🧰 사용 기술 스택
+## 📈 경험을 통해 얻은 것
 
-Language: Python
+- 이미지 인식 모델은 데이터 품질이 성능에 결정적이라는 점을 체감
 
-Framework / Library
+- 모델 구조뿐 아니라
+  - 전처리
 
-PyTorch
+  - 학습 전략
 
-OpenCV
+  - 실험 설계   
 
-NumPy
+    가 모두 중요함을 이해
 
-Computer Vision
-
-
-Image preprocessing
-
-CNN-based image recognition
-
-Tools
-
-Git / GitHub
-
-Markdown documentation
-
-📈 경험을 통해 얻은 것
-
-이미지 인식 모델은 데이터 품질이 성능에 결정적이라는 점을 체감
-
-모델 구조뿐 아니라
-
-전처리
-
-학습 전략
-
-실험 설계
-가 모두 중요함을 이해
-
-실무 환경에서의 재현성 있는 실험 정리의 중요성 학습
+- 실무 환경에서의 재현성 있는 실험 정리의 중요성 학습
