@@ -117,5 +117,38 @@ Plain Network에 Shortcut connection을 삽입한다.
 
 ### Identity vs. Projection Shortcut
 
+![option](img/imageabc.png)
+
+ResNet에 대한 세가지 옵션을 비교하였다.
+
+A. 증가한 차원에 대해 zero padding 적용 후 모든 shortcut은 parameter free   
+B. 증가한 차원은 Projection shortcut, 나머지는 Identity shortcut   
+C. 전부 Projection shortcut
+
+성능은 C-B-A 순으로 좋았다. 하지만 차이는 미세하기에 이 논문에서는 메모리/시간 복잡도와 모델 사이즈를 줄이기 위해 옵션 B를 사용했다.   
+Identity shortcut이 **Bottleneck** 구조에 중요하기 때문이다.
+
+### Deeper Bottleneck Architectures
+
+깊은 ResNet에서는 학습시간을 줄이기 위해 Bottlenect 구조를 사용한다.   
+1x1, 3x3 그리고 1x1 convolutions 이 세가지 스택을 사용한다.
+1x1 layers는 차원을 줄이고 키우는 역할을 하는데 그 결과 3×3 레이어는 더 작은 입력/출력 차원을 가지는 bottleneck 구조가 된다.
+
+![bottlenect](img/imagebottle.png)
+
+
+만약 identity shortcut이 projection shortcut으로 대체된다면 shortcut이 두개의 고차원 끝단을 연결하기 때문에 시간 복잡도와 모델 사이즈는 두배가 된다는 걸 볼 수 있다.
+그렇기에 Identity shortcut은 bottlenect 구조에 더 효과적이다.
 
 ## 3.2. CIFAR-10 and Analysis
+
+![cifar](img/imagecifar.png)
+
+결과를 보면 ImageNet과 마찬가지로 layer가 증가할 수록 성능이 좋아지는 걸 볼 수 있으나 오른쪽 그래프에서 1202 layer로 늘렸을 때 overfitting이 발생하는 걸 볼 수 있다.
+
+
+CIFAR-10 데이터셋은 이미지 사이지가 32x32로 ImageNet 보다 훨씬 작아서 모델 구조를 수정해서 사용한다.
+
+
+# 모델 구현
+Test Acc: 95.35% 
