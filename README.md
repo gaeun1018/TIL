@@ -51,3 +51,19 @@
 
 <br>
 
+
+### 🏆 [4. Kaggle](./kaggle)
+> 공개된 커널을 참고하여 직접 실행하고 주석을 달며 학습한 코드 모음입니다. 참고한 원본 커널은 각 폴더의 README에 명시되어 있습니다.
+
+- **Tabular**
+  - [Porto Seguro's Safe Driver Prediction](./kaggle/Safe_Driver) - EDA, Feature Engineering, LightGBM/XGBoost 앙상블
+  - [Costa Rican Household Poverty Level Prediction](./kaggle/Household_Poverty) - EDA, 도메인 기반 결측치 처리
+  - [Home Credit Default Risk](./kaggle/Home_Credit) - 외부 데이터 집계, Polynomial features, LightGBM
+- **CV**
+  - [Statoil/C-CORE Iceberg Classifier Challenge](./kaggle/Iceberg) - SAR 이미지 처리, CNN
+- **Audio**
+  - [TensorFlow Speech Recognition Challenge](./kaggle/Speech_Recognition) - Log-Spectrogram, FFT, MFCC, VAD
+- **NLP**
+  - [Toxic Comment Classification Challenge](./kaggle/Toxic_Comment) - 토큰화, 패딩, LSTM
+
+<br>
