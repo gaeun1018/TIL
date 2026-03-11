@@ -7,7 +7,7 @@
 - **데이터**: 약 60만 건, 57개 feature (익명화)
 
 ## 파일
-- `notebook.ipynb`: EDA + Feature Engineering + LightGBM/XGBoost 스태킹 앙상블
+- `notebook.ipynb`: EDA + Feature Engineering + LightGBM/XGBoost 스태킹 앙상블 
 
 ## 주요 접근
 - 메타데이터 기반 feature 분류 (binary / categorical / real)
